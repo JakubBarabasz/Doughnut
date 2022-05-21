@@ -20,6 +20,7 @@ public class RingBehaviour : MonoBehaviour
     }
     void Update()
     {
+        Application.targetFrameRate = 60;
         Destroy(ring, 15);
     }
 }
